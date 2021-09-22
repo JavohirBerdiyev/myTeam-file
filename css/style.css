@@ -491,9 +491,12 @@ body {
     line-height: 28px;
     color: #FFFFFF;
     text-decoration: none;
+    transition: all 0.4s ease;
+
   }
   .footer__text:hover{
     color: #F67E7E;
+    transition: all 0.4s ease;
   }
   
   .about {
