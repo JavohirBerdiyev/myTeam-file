@@ -541,23 +541,34 @@ body {
   {
     color: #fff;
     font-size: 35px;
+    transition: all 0.4s ease;
+
   }
   .bxl-facebook-square:hover{
     color: #F67E7E;
+    transition: all 0.4s ease;
+
   }
   .bxl-pinterest{
     color: #fff;
     font-size: 35px;
+    transition: all 0.4s ease;
+
   }
   .bxl-pinterest:hover{
     color: #F67E7E;
+    transition: all 0.4s ease;
+
   }
   .bxl-twitter{
     color: #fff;
     font-size: 35px;
+    transition: all 0.4s ease;
+
   }
   .bxl-twitter:hover{
     color: #F67E7E;
+    transition: all 0.4s ease;
   }
 
 
