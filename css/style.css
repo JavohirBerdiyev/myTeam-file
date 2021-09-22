@@ -442,8 +442,8 @@ body {
 
   }
   .started__btn:hover{
-    background: #fff;
-    color: #012F34;
+    background: #002529;
+    color: #fff;
     transition: all 0.4s ease;
 
   }
