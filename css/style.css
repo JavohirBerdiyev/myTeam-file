@@ -82,8 +82,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-
+    
+    
   }
   .hero__title{
     width: 550px;
@@ -118,4 +118,306 @@ body {
     background: #79C8C7;
     position: absolute;
     top: -79px;
-    }
+  }
+  
+  #build{
+    background: #012F34;
+    padding-top: 140px;
+    background-image: url("..//img/Group\ 8\ \(2\).png  ");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    height: 700px;
+  }
+  
+  .build__body{
+    position: relative;
+  }
+  .build__body::before{
+    content: '';
+    display: block;
+    background: #F67E7E;
+    width: 50px;
+    height: 5px;
+  }
+  
+  
+  .build__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    color: #FFFFFF;
+    width: 415px;
+    margin-top: 54px;
+  }
+  
+  .build__item {
+  }
+  .build__list {
+    list-style: none;
+    display: flex;
+  }
+  .build__list::before{
+    content: '';
+    display: block;
+    background-image: url("..//img/Group\ 11\ \(1\).svg");
+    background-repeat: no-repeat;
+    width: 72px;
+    height: 72px;
+    margin-right: 23px;
+  }
+  
+  .build__list__two {
+    list-style: none;
+    display: flex;
+  }
+  .build__list__two::before{
+    content: '';
+    display: block;
+    background-image: url("..//img/Group\ 12\ \(1\).svg");
+    background-repeat: no-repeat;
+    width: 72px;
+    height: 72px;
+    margin-right: 23px;
+  }
+  
+  .build__list__tree {
+    list-style: none;
+    display: flex;
+  }
+  .build__list__tree::before{
+    content: '';
+    display: block;
+    background-image: url("..//img/Group\ 13.svg");
+    background-repeat: no-repeat;
+    width: 72px;
+    height: 72px;
+    margin-right: 23px;
+  }
+  .build__list__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;    
+    color: #F67E7E;
+  }
+  .build__list_text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    opacity: 0.8;
+    width: 420px;
+  }
+  
+  
+  #stories{
+    background: #004047;
+    background-image: url("..//img/Group\ 8\ Copy.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    height: 700px;
+  }
+  
+  
+  
+  .stories__body {
+    
+  }
+  .stories__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 920px;
+    margin-top: 140px;
+    margin-left: 125px;
+    margin-bottom: 56px;
+  }
+  .stories__title__span {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #79C8C7;
+  }
+  .stories__item {
+    display: flex;
+    justify-content: space-between;
+  }
+  .stories__list {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 330px;
+    list-style: none;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .stories__list::before{
+    content: '';
+    display: block;
+    background-image: url(..//img/“.svg);
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 56px;
+    margin-left: 150px;
+    position: absolute;
+    z-index: -1;
+    top: -35px;
+  }
+  
+  .stories__list__title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #79C8C7;
+  }
+  
+  .stories__list__text{
+    font-style: italic;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    
+  }
+  
+  
+  
+  .stories__list__two {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 335px;
+    list-style: none;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .stories__list__two::before{
+    content: '';
+    display: block;
+    background-image: url(..//img/“.svg);
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 56px;
+    margin-left: 150px;
+    position: absolute;
+    z-index: -1;
+    top: -35px;
+  }
+  
+  .stories__list__title__two {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #79C8C7;
+  }
+  
+  .stories__list__text__two{
+    font-style: italic;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  
+  .stories__list__tree {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 330px;
+    list-style: none;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .stories__list__tree::before{
+    content: '';
+    display: block;
+    background-image: url(..//img/“.svg);
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 56px;
+    margin-left: 150px;
+    position: absolute;
+    z-index: -1;
+    top: -35px;
+  }
+  
+  .stories__list__title__tree {
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #79C8C7;
+  }
+  
+  .stories__list__text__tree {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 340px;
+  }
+  
+  
+  #started{
+    background: #F67E7E;
+    background-image: url("..//img/Group\ 8\ \(4\).png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    height: 200px;
+  }
+  
+  .started__body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+  }
+  .started__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    color: #012F34;
+  }
+  .started__btn {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #012F34;
+    border: 2px solid #012F34;
+    box-sizing: border-box;
+    border-radius: 24px;
+    padding: 9px 33px 11px 32px;
+    text-decoration: none;
+  }
+  
