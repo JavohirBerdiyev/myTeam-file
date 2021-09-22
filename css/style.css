@@ -24,6 +24,15 @@ body {
   #header{
     background: #014E56;
     height: 700px;
+    background-image: url("..//img/Group\ 8\ \(1\).png");
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+  .hero__bg{
+    background-image: url("..//img/Group\ 7.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    height: inherit;
   }
   
   header{
@@ -73,7 +82,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-image: url("../");
+
+
   }
   .hero__title{
     width: 550px;
