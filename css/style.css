@@ -485,6 +485,9 @@ body {
     color: #FFFFFF;
     text-decoration: none;
   }
+  .footer__text:hover{
+    color: #F67E7E;
+  }
   
   .about {
   }
@@ -524,4 +527,29 @@ body {
     color: #FFFFFF;
     opacity: 0.6;
   }
+    .bxl-facebook-square
+  {
+    color: #fff;
+    font-size: 35px;
+  }
+  .bxl-facebook-square:hover{
+    color: #F67E7E;
+  }
+  .bxl-pinterest{
+    color: #fff;
+    font-size: 35px;
+  }
+  .bxl-pinterest:hover{
+    color: #F67E7E;
+  }
+  .bxl-twitter{
+    color: #fff;
+    font-size: 35px;
+  }
+  .bxl-twitter:hover{
+    color: #F67E7E;
+  }
+
+
+
   
